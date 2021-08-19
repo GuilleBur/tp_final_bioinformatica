@@ -24,5 +24,5 @@
 - **11_SmilesTokenizer:** utilización de técnicas modernas de tokenización utilizando [SmilesTokenizer](https://deepchem.readthedocs.io/en/2.4.0/api_reference/tokenizers.html) de la lib deepchem:
 Inputs= Smiles tokenizados con data augmentation + Modelo = TextCNN → val_R2=0.7 en 148 Epochs
 - **012-Transfer-Learning:** utilización de modelos tipo BERT pre-entrenados con lenguaje= SMILES. 
-    - Inputs= Smiles Canonicos + Modelo = [PubChem10M_SMILES_BPE_450k](https://huggingface.co/seyonec/PubChem10M_SMILES_BPE_450k) val_R2= 0.7 en 5 Epochs
+    - Inputs= Smiles Canonicos + Modelo = [PubChem10M_SMILES_BPE_450k](https://huggingface.co/seyonec/PubChem10M_SMILES_BPE_450k) val_R2= 0.7 en 10 Epochs
     - Inputs= Smiles Canonicos + Modelo = [ChemBERTa-zinc-base-v1](https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1) val_R2=0.674 en 20 Epochs
