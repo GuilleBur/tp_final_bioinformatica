@@ -2,8 +2,7 @@
 ## Trabajo Practico Final de la Diplomatura en Deep Learning del ITBA
 ### Instalación:
 - De manera local: puede utilizar el contenedor docker que ya tiene todas las lib. necesarias --> **docker pull gburgener/deep_learning_itba**
-- Con Colab: La mayoria de las notebooks son compatibles para ejecutarlas desde Colab, solo se debera cambiar el path donde se encuentra los dataset y demas cosas.
-
+- Con Colab: La mayoria de las notebooks son compatibles para ejecutarlas desde Colab, las cuales instalan todo lo necesario
 ### Guias de Notebooks extras:
 
 - [**007_Data_preprocessing.ipynb:**](https://github.com/GuilleBur/tp_final_bioinformatica/blob/main/007_Data_preprocessing.ipynb) Se agrega al dataset columnas nuevas:
